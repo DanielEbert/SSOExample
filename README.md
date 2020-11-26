@@ -15,7 +15,7 @@ Open the file '..../SSOExample/.env' and replace the '/home/user/P/' part of the
 ~~~console
 cd SSOExample
 docker-compose up
-Wait ~1 minute for everything to start and open localhost:3000 in your favorite browser. If you login on localhost:3000, then open localhost:3001, you should get logged in automatically (SSO WOOOOOO)
+Wait ~1 minute for everything to start and open localhost:3000 in your favorite browser. If you login on localhost:3000, then open localhost:3001, you should get logged in automatically
 ~~~
 
 
