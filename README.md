@@ -8,12 +8,12 @@ Install docker and docker-compose.
 
 Any 'recent' versions should suffice. For reference, we tested it on Docker version 19.03.13, docker-compose version 1.27.4.
 
-Open the file '..../sichere_webanwendungen/.env' and replace the '/home/user/P/' part of the 'POSTGRES_DATA_DIR' variable with the path to your cloned 'sichere_webanwendungen' repository. For example, if you cloned the repo to /tmp, set POSTGRES_DATA_DIR to '/tmp/sichere_webanwendungen/postgres_data'.
+Open the file '..../SSOExample/.env' and replace the '/home/user/P/' part of the 'POSTGRES_DATA_DIR' variable with the path to your cloned 'SSOExample' repository. For example, if you cloned the repo to /tmp, set POSTGRES_DATA_DIR to '/tmp/SSOExample/postgres_data'.
 
 ### Run
 
 ~~~console
-cd sichere_webanwendungen/keycloak
+cd SSOExample
 docker-compose up
 Wait ~1 minute for everything to start and open localhost:3000 in your favorite browser. If you login on localhost:3000, then open localhost:3001, you should get logged in automatically (SSO WOOOOOO)
 ~~~
